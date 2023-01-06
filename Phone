@@ -1,0 +1,13 @@
+email=input()
+if email.endswith('@gmail.com')or email.endswith('@yahoo.com')or email.endswith('outlook.com'):
+    print('Valid Email Id')
+else:
+    print('Invalid Email Id')
+phno=input()
+if len(phno)==13:
+    if phno.startswith("+919") or phno.startswith("+918") or phno.startswith("+917") or phno.startswith("+916"):
+        print('Valid phno')
+    else:
+         print('Invalid phno')
+else:
+    print('Invalid phno')
